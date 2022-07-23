@@ -1,10 +1,12 @@
 import './App.scss';
-import Sidebar from "../Sidebar/Sidebar";
+import Sidebar from "../Sidebar";
+import Main from '../Main';
 
 const App = () => {
   return (
     <div className="wrapper">
       <Sidebar />
+      <Main />
     </div>
   );
 }
