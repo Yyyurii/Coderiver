@@ -1,7 +1,10 @@
+import './App.scss';
+import Sidebar from "../Sidebar/Sidebar";
+
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">Hello</header>
+    <div className="wrapper">
+      <Sidebar />
     </div>
   );
 }
