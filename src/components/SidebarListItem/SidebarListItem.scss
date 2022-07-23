@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 18px 32px;
+
+  &.active {
+    color: #dde2ff;
+    background: rgba(159, 162, 180, 0.08);
+    border-left: 4px solid #DDE2FF;
+  }
+}
