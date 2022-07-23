@@ -1,7 +1,12 @@
-import './Main.scss';
+import MainHeader from "../MainHeader";
+import "./Main.scss";
 
 const Main = () => {
-  return <section className="main"></section>;
+  return (
+    <section className="main">
+      <MainHeader />
+    </section>
+  );
 };
 
 export default Main;

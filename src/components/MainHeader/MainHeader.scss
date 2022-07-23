@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+  }
+
+  &__right-column {
+    display: flex;
+    align-items: center;
+  }
+
+  &__actions-img {
+    width: 16px;
+    margin-left: 24px;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  &__img {
+    width: 44px;
+    height: 44px;
+    border: 1.5px solid #dfe0eb;
+    border-radius: 50%;
+    padding: 2px;
+
+    img {
+      border-radius: 50%;
+      width: 100%;
+    }
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 64px;
+
+    &::before {
+      content: "";
+      border-left: 1px solid #c5c7cd;
+      position: relative;
+      right: 32px;
+    }
+  }
+}

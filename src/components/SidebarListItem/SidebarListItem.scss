@@ -1,12 +1,15 @@
 .item {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 18px 32px;
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 18px 32px;
+    cursor: pointer;
+  }
 
   &.active {
     color: #dde2ff;
     background: rgba(159, 162, 180, 0.08);
-    border-left: 4px solid #DDE2FF;
+    border-left: 4px solid #dde2ff;
   }
 }
