@@ -8,8 +8,8 @@ const Main = () => {
   return (
     <section className="main">
       <MainHeader />
-      {/* <Statistics />
-      <MainContent /> */}
+      <Statistics />
+      <MainContent />
       <MainFooter />
     </section>
   );
