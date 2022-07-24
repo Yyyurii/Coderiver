@@ -8,12 +8,12 @@ const MainTable = () => {
   const { getUsers } = useUsers();
 
   useEffect(() => {
+    function getUsersList() {
+      getUsers().then((res) => setUsers(res));
+    }
+
     getUsersList();
   }, []);
-
-  function getUsersList() {
-    getUsers().then((res) => setUsers(res));
-  }
 
   function renderUsersList(users) {
     const usersList = users.map((item) => {

@@ -1,5 +1,4 @@
 .main-table {
-  padding: 48px 0 0;
   width: 100%;
 
   .header {
@@ -8,23 +7,51 @@
     line-height: 18px;
     letter-spacing: 0.2px;
     color: #9fa2b4;
-    padding: 0 0 12px;
+    padding: 0 32px 12px;
+  }
+}
 
-    &__item {
-      &:first-child {
-        flex: 1 1 44%;
-      }
-      &:nth-child(2) {
-        flex: 1 1 24%;
-      }
-      &:nth-child(3) {
-        flex: 1 1 17.5%;
-      }
-      &:nth-child(4) {
-        flex: 1 1 14.5%;
-      }
-    }
+thead td {
+  &:nth-child(1) {
+    width: 44%;
   }
-  .table {
+
+  &:nth-child(2) {
+    width: 24%;
   }
+
+  &:nth-child(3) {
+    width: 17.5%;
+  }
+
+  &:nth-child(4) {
+    width: 14.5%;
+  }
+}
+
+tbody tr td {
+  &:nth-child(1) {
+    width: 44%;
+  }
+
+  &:nth-child(2) {
+    width: 24%;
+  }
+
+  &:nth-child(3) {
+    width: 17.5%;
+  }
+
+  &:nth-child(4) {
+    width: 12%;
+  }
+
+  &:nth-child(5) {
+    width: 2.5%;
+  }
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
 }
