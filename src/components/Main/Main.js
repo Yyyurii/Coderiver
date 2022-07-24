@@ -1,5 +1,6 @@
+import MainContent from "../MainContent";
 import MainHeader from "../MainHeader";
-import Statistics from "../Statistics/Statistics";
+import Statistics from "../Statistics";
 import "./Main.scss";
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <section className="main">
       <MainHeader />
       <Statistics />
+      <MainContent />
     </section>
   );
 };

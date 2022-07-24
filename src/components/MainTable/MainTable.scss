@@ -1,0 +1,29 @@
+.main-table {
+  padding: 48px 0 0;
+
+  .header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9fa2b4;
+    padding: 0 0 12px;
+
+    &__item {
+      &:first-child {
+        flex: 1 1 44%;
+      }
+      &:nth-child(2) {
+        flex: 1 1 24%;
+      }
+      &:nth-child(3) {
+        flex: 1 1 17.5%;
+      }
+      &:nth-child(4) {
+        flex: 1 1 14.5%;
+      }
+    }
+  }
+  .table {
+  }
+}
