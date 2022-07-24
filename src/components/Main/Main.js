@@ -1,6 +1,7 @@
 import MainContent from "../MainContent";
 import MainFooter from "../MainFooter";
 import MainHeader from "../MainHeader";
+import SingleUserPage from "../SingleUserPage";
 import Statistics from "../Statistics";
 import "./Main.scss";
 
@@ -9,8 +10,9 @@ const Main = () => {
     <section className="main">
       <MainHeader />
       <Statistics />
-      <MainContent />
-      <MainFooter />
+      {/* <MainContent />
+      <MainFooter /> */}
+      <SingleUserPage />
     </section>
   );
 };
