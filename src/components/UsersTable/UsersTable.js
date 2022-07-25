@@ -1,19 +1,10 @@
 import "./MainTable.scss";
 import UsersTableRow from "../UsersTableRow";
-import useUsers from "../../services/users";
-import { useState, useEffect } from "react";
+import AppContext from "../../context";
+import { useContext } from "react";
 
 const UsersTable = () => {
-  const [users, setUsers] = useState([]);
-  const { getUsers } = useUsers();
-
-  useEffect(() => {
-    function getUsersList() {
-      getUsers().then((res) => setUsers(res));
-    }
-
-    getUsersList();
-  }, []);
+  const { users } = useContext(AppContext);
 
   function renderUsersList(users) {
     const usersList = users.map((item) => {

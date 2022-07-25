@@ -2,12 +2,16 @@ import "./UsersTableRow.scss";
 import agents from "../../assets/images/agents.svg";
 import dots from "../../assets/images/dots.svg";
 import { Link } from "react-router-dom";
+import AppContext from "../../context";
+import { useContext } from "react";
 
 const UsersTableRow = ({ details }) => {
   const { name, address, company, email, website } = details;
+  const { setActiveUser } = useContext(AppContext);
+
   return (
     <Link to={`/users/${name}`}>
-      <tr className="table-row">
+      <tr className="table-row" onClick={() => setActiveUser(details)}>
         <td className="table-row__item user-row">
           <img className="user-row__img" src={agents} alt="user" />
           <div className="user-row__information">
