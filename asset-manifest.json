@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/coderiver/static/css/main.71d5df60.css",
-    "main.js": "/coderiver/static/js/main.7bd5571a.js",
-    "static/media/background.svg": "/coderiver/static/media/background.4a7ae97443b9e92a67c4aeeb351e62b9.svg",
-    "static/media/user1.svg": "/coderiver/static/media/user1.6db05392a94503dde608ac4b2d8959de.svg",
-    "static/media/subscription.svg": "/coderiver/static/media/subscription.dbf7fcec4c1f05192dc314e5ed02a9e0.svg",
-    "static/media/settings.svg": "/coderiver/static/media/settings.0022bc276c3448a33720fe976ecdbca4.svg",
-    "static/media/sort.svg": "/coderiver/static/media/sort.474843c817361106079d0c39fc0bb4ff.svg",
-    "static/media/ideas.svg": "/coderiver/static/media/ideas.9dcf3c6ec289c7f2cfac5b59fd486cac.svg",
-    "static/media/contacts.svg": "/coderiver/static/media/contacts.20c64bb5b1c20df2662cea4ccf3287a1.svg",
-    "static/media/articles.svg": "/coderiver/static/media/articles.6da942fcd5e683fde6623be5c99da286.svg",
-    "static/media/users.svg": "/coderiver/static/media/users.b8624cbbb7e097e239213ece0f98fc25.svg",
-    "static/media/overview.svg": "/coderiver/static/media/overview.cb3686e2fffe5ae33a5ba663069016b2.svg",
-    "static/media/bell-new-notifications.svg": "/coderiver/static/media/bell-new-notifications.9e137f27bb4065289baefd013bf4c615.svg",
-    "index.html": "/coderiver/index.html",
-    "static/media/logo.svg": "/coderiver/static/media/logo.0426ca372651920463b8cc356a5057d3.svg",
-    "static/media/agents.svg": "/coderiver/static/media/agents.a30d9fae84efe2e666023d88015b12d3.svg",
-    "static/media/dots.svg": "/coderiver/static/media/dots.4c10c7facf3b339b789c41c9ea7adeb5.svg",
-    "static/media/plus.svg": "/coderiver/static/media/plus.487befe642d70ae735378c13607861e0.svg",
-    "static/media/search.svg": "/coderiver/static/media/search.6d70b94e52efe0caff25c6001f183b67.svg",
-    "main.71d5df60.css.map": "/coderiver/static/css/main.71d5df60.css.map",
-    "main.7bd5571a.js.map": "/coderiver/static/js/main.7bd5571a.js.map"
+    "main.css": "/Coderiver/static/css/main.71d5df60.css",
+    "main.js": "/Coderiver/static/js/main.5528f64f.js",
+    "static/media/background.svg": "/Coderiver/static/media/background.4a7ae97443b9e92a67c4aeeb351e62b9.svg",
+    "static/media/user1.svg": "/Coderiver/static/media/user1.6db05392a94503dde608ac4b2d8959de.svg",
+    "static/media/subscription.svg": "/Coderiver/static/media/subscription.dbf7fcec4c1f05192dc314e5ed02a9e0.svg",
+    "static/media/settings.svg": "/Coderiver/static/media/settings.0022bc276c3448a33720fe976ecdbca4.svg",
+    "static/media/sort.svg": "/Coderiver/static/media/sort.474843c817361106079d0c39fc0bb4ff.svg",
+    "static/media/ideas.svg": "/Coderiver/static/media/ideas.9dcf3c6ec289c7f2cfac5b59fd486cac.svg",
+    "static/media/contacts.svg": "/Coderiver/static/media/contacts.20c64bb5b1c20df2662cea4ccf3287a1.svg",
+    "static/media/articles.svg": "/Coderiver/static/media/articles.6da942fcd5e683fde6623be5c99da286.svg",
+    "static/media/users.svg": "/Coderiver/static/media/users.b8624cbbb7e097e239213ece0f98fc25.svg",
+    "static/media/overview.svg": "/Coderiver/static/media/overview.cb3686e2fffe5ae33a5ba663069016b2.svg",
+    "static/media/bell-new-notifications.svg": "/Coderiver/static/media/bell-new-notifications.9e137f27bb4065289baefd013bf4c615.svg",
+    "index.html": "/Coderiver/index.html",
+    "static/media/logo.svg": "/Coderiver/static/media/logo.0426ca372651920463b8cc356a5057d3.svg",
+    "static/media/agents.svg": "/Coderiver/static/media/agents.a30d9fae84efe2e666023d88015b12d3.svg",
+    "static/media/dots.svg": "/Coderiver/static/media/dots.4c10c7facf3b339b789c41c9ea7adeb5.svg",
+    "static/media/plus.svg": "/Coderiver/static/media/plus.487befe642d70ae735378c13607861e0.svg",
+    "static/media/search.svg": "/Coderiver/static/media/search.6d70b94e52efe0caff25c6001f183b67.svg",
+    "main.71d5df60.css.map": "/Coderiver/static/css/main.71d5df60.css.map",
+    "main.5528f64f.js.map": "/Coderiver/static/js/main.5528f64f.js.map"
   },
   "entrypoints": [
     "static/css/main.71d5df60.css",
-    "static/js/main.7bd5571a.js"
+    "static/js/main.5528f64f.js"
   ]
 }
