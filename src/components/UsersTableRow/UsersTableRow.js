@@ -11,8 +11,8 @@ const UsersTableRow = ({ details }) => {
 
   return (
     <Link to={`/users/${name}`}>
-      <tr className="table-row" onClick={() => setActiveUser(details)}>
-        <td className="table-row__item user-row">
+      <div className="table-row" onClick={() => setActiveUser(details)}>
+        <div className="table-row__item user-row">
           <img className="user-row__img" src={agents} alt="user" />
           <div className="user-row__information">
             <div title={name} className="user-row__title user-row__title_name">
@@ -25,8 +25,8 @@ const UsersTableRow = ({ details }) => {
               {address.city}
             </div>
           </div>
-        </td>
-        <td className="table-row__item">
+        </div>
+        <div className="table-row__item">
           <div className="user-row__information">
             <div
               title={company.name}
@@ -41,8 +41,8 @@ const UsersTableRow = ({ details }) => {
               {company.bs}
             </div>
           </div>
-        </td>
-        <td className="table-row__item">
+        </div>
+        <div className="table-row__item">
           <div className="user-row__information">
             <div
               title={email}
@@ -57,14 +57,14 @@ const UsersTableRow = ({ details }) => {
               {website}
             </div>
           </div>
-        </td>
-        <td className="table-row__item">
+        </div>
+        <div className="table-row__item">
           <button className="table-row__btn table-row__btn_high">HIGH</button>
-        </td>
-        <td className="table-row__item">
+        </div>
+        <div className="table-row__item">
           <img className="table-row__dots" src={dots} alt="settings" />
-        </td>
-      </tr>
+        </div>
+      </div>
     </Link>
   );
 };

@@ -1,4 +1,4 @@
-import "./MainTable.scss";
+import "./UsersTable.scss";
 import UsersTableRow from "../UsersTableRow";
 import AppContext from "../../context";
 import { useContext } from "react";
@@ -16,26 +16,24 @@ const UsersTable = () => {
   const content = renderUsersList(users);
 
   return (
-    <table className="main-table table">
-      <thead>
-        <tr className="table__header header">
-          <td className="header__item">
+    <div className="main-table table">
+        <div className="table__header header-table">
+          <div className="header-table__item">
             <span>User details</span>
-          </td>
-          <td className="header__item">
+          </div>
+          <div className="header-table__item">
             <span>Company name</span>
-          </td>
-          <td className="header__item">
+          </div>
+          <div className="header-table__item">
             <span>Email</span>
-          </td>
-          <td className="header__item">
+          </div>
+          <div className="header-table__item">
             <span>Distance</span>
-          </td>
-        </tr>
-      </thead>
+          </div>
+        </div>
 
-      <tbody>{content}</tbody>
-    </table>
+      <div>{content}</div>
+    </div>
   );
 };
 
