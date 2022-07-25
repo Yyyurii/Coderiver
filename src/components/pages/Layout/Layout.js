@@ -1,6 +1,7 @@
 import "./Layout.scss";
-import Header from "../Header";
-import Sidebar from "../Sidebar";
+import Header from "../../Header";
+import Sidebar from "../../Sidebar";
+import Statistics from "../../Statistics";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
@@ -9,6 +10,7 @@ const Layout = () => {
       <Sidebar />
       <div className="main">
         <Header />
+        <Statistics />
         <Outlet />
       </div>
     </div>

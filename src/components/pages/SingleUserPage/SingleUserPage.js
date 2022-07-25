@@ -1,6 +1,6 @@
 import "./SingleUserPage.scss";
-import background from "../../assets/images/background.svg";
-import user1 from "../../assets/images/user1.svg";
+import background from "../../../assets/images/background.svg";
+import user1 from "../../../assets/images/user1.svg";
 
 const SingleUserPage = () => {
   return (

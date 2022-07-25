@@ -1,7 +1,6 @@
 .item {
   transition: all 0.3s ease;
   
-  
   &:hover {
     color: #dde2ff;
     background: rgba(159, 162, 180, 0.08);
@@ -14,11 +13,10 @@
     gap: 24px;
     padding: 18px 32px;
     cursor: pointer;
-  }
+    opacity: 0.4;
 
-  &.active {
-    color: #dde2ff;
-    background: rgba(159, 162, 180, 0.08);
-    border-left: 3px solid #dde2ff;
+    &:hover {
+      opacity: 1;
+    }
   }
 }

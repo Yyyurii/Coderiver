@@ -14,27 +14,33 @@ const SidebarList = () => {
     {
       img: overview,
       title: "Overview",
+      link:"overview"
     },
     {
       img: users,
       title: "Users",
       class: "active",
+      link:"users"
     },
     {
       img: ideas,
       title: "Ideas",
+      link:"ideas"
     },
     {
       img: contacts,
       title: "Contacts",
+      link:"contacts"
     },
     {
       img: agents,
       title: "Agents",
+      link:"agents"
     },
     {
       img: articles,
       title: "Articles",
+      link:"articles"
     },
   ];
 
@@ -42,10 +48,12 @@ const SidebarList = () => {
     {
       img: settings,
       title: "Settings",
+      link:"settings"
     },
     {
       img: subscription,
       title: "Subscription",
+      link:"subscription"
     },
   ];
 
