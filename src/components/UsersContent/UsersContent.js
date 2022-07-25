@@ -1,8 +1,8 @@
-import './MainContent.scss';
+import './UsersContent.scss';
 import sort from '../../assets/images/sort.svg';
-import MainTable from '../MainTable';
+import UsersTable from '../UsersTable';
 
-const MainContent = () => {
+const UsersContent = () => {
   return (
     <div className="main-content">
       <div className="main-content__header">
@@ -12,9 +12,9 @@ const MainContent = () => {
           <span>Sort</span>
         </div>
       </div>
-      <MainTable />
+      <UsersTable />
     </div>
   );
 };
 
-export default MainContent;
+export default UsersContent;

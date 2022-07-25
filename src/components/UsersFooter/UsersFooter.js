@@ -1,8 +1,8 @@
 import Tasks from '../Tasks';
 import UnresolvedTickets from '../UnresolvedTickets';
-import './MainFooter.scss';
+import './UsersFooter.scss';
 
-const MainFooter = () => {
+const UsersFooter = () => {
   return (
     <div className="main-footer">
       <UnresolvedTickets />
@@ -11,4 +11,4 @@ const MainFooter = () => {
   );
 };
 
-export default MainFooter;
+export default UsersFooter;

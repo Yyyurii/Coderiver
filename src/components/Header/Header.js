@@ -1,9 +1,9 @@
-import "./MainHeader.scss";
+import "./Header.scss";
 import search from "../../assets/images/search.svg";
 import bell from "../../assets/images/bell-new-notifications.svg";
 import agents from "../../assets/images/agents.svg";
 
-const MainHeader = () => {
+const Header = () => {
   return (
     <div className="header">
       <h1 className="header__title">Users</h1>
@@ -21,4 +21,4 @@ const MainHeader = () => {
   );
 };
 
-export default MainHeader;
+export default Header;

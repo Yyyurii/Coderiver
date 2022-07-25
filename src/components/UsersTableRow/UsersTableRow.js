@@ -1,8 +1,8 @@
-import "./MainTableRow.scss";
+import "./UsersTableRow.scss";
 import agents from "../../assets/images/agents.svg";
 import dots from "../../assets/images/dots.svg";
 
-const MainTableRow = ({ details }) => {
+const UsersTableRow = ({ details }) => {
   const { name, address, company, email, website } = details;
   return (
     <tr className="table-row">
@@ -59,4 +59,4 @@ const MainTableRow = ({ details }) => {
   );
 };
 
-export default MainTableRow;
+export default UsersTableRow;

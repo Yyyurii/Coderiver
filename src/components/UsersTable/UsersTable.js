@@ -1,9 +1,9 @@
 import "./MainTable.scss";
-import MainTableRow from "../MainTableRow";
+import UsersTableRow from "../UsersTableRow";
 import useUsers from "../../services/users";
 import { useState, useEffect } from "react";
 
-const MainTable = () => {
+const UsersTable = () => {
   const [users, setUsers] = useState([]);
   const { getUsers } = useUsers();
 
@@ -17,7 +17,7 @@ const MainTable = () => {
 
   function renderUsersList(users) {
     const usersList = users.map((item) => {
-      return <MainTableRow key={item.id} details={item} />;
+      return <UsersTableRow key={item.id} details={item} />;
     });
     return usersList;
   }
@@ -48,4 +48,4 @@ const MainTable = () => {
   );
 };
 
-export default MainTable;
+export default UsersTable;
